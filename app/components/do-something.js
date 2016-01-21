@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import Soldier from '../utils/person';
+import {Soldier} from '../utils/person';
 
 export default Ember.Component.extend({
   actions: {
