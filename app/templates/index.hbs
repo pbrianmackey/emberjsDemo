@@ -6,6 +6,10 @@
   {{rental-listing rental=rentalUnit}}
 {{/each}}
 
+{{#each model as |doSomething|}}
+  {{do-something thing=doSomething}}
+{{/each}}
+
 {{#link-to "about"}}About{{/link-to}}
 {{#link-to "contact"}}Click here to contact us.{{/link-to}}
 {{outlet}}
